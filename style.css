@@ -1,0 +1,234 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    width:100%;
+    position: fixed;
+    display:flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    height: 4em;
+}
+.header .logo {
+
+    margin:auto 1em;
+}
+.header .logo h3{
+    font-size: 2em;
+}
+.header .links{
+    margin: auto 1em;
+}
+.header .links a{
+ text-decoration: none;   
+ color:white;
+ margin-right: 1em;;
+}
+.header .social-media-icon{
+    margin :auto 1em;
+}
+.header .social-media-icon i{
+    margin-right: .87em;
+}
+
+/* banner section */
+
+.banner-section{
+    background:url(./images/pizza1\ 1.jpg) no-repeat center;
+    width: 100%;
+    background-size: cover;
+    height:100%;
+}
+.banner-section .banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.banner-section .banner .heading h1{
+    font-size: 3.5em;
+    margin: 2em 1em;
+    color:white;
+}
+.banner-section .banner .heading-content{
+    width: 30%;
+    color:white;
+    margin:2em 1em 18em 2em;
+
+}
+/* about us */
+
+.aboutus-section{
+
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aboutus-section .aboutus-heading{
+    color:white;
+    text-align: center;
+    padding-top:2em;
+    padding-bottom: 1em;
+    width:30%;
+    border-bottom: 4px solid red;
+ }
+
+.aboutus-section .aboutus{
+    display: flex;
+    justify-content: center;
+}
+.aboutus-section .aboutus .aboutus-left{
+    color:white;
+    padding:4em;
+    width:50%;
+    text-align: justify;
+}
+.aboutus-section .aboutus .aboutus-left p{
+    border-top:4px solid red;
+    padding-top: 1em;
+}
+
+.aboutus-section .aboutus .aboutus-right{
+    padding:4em;
+   
+}
+.aboutus-section .aboutus .aboutus-right img{
+    width:70%;
+    border-radius: 20%;
+    
+}
+
+/* menu section */
+
+.menu-section{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
+}
+
+.menu-section .menu-heading{
+    color:white;
+    width:30%;
+    border-bottom: 4px solid red;
+    text-align: center;
+    margin-bottom: 1em;
+}
+.menu-section .menu-heading h1{
+    padding-bottom: .45em;
+}
+
+
+.menu-section .menu-content{
+    color:white;
+    width:70%;
+    margin-bottom: 1em;
+}
+
+.menu-section .menu-list{
+    display: grid;
+    grid-template-columns: repeat(2,40%);
+    grid-column-gap: 5em;
+    justify-content: center;
+    
+}
+.menu-section .menu-list .list-item{
+     display:flex;
+     justify-content: space-between; 
+     width:100%;
+        margin:1em;
+        
+}
+.menu-section .menu-list .list-item img{
+    width:10em;
+    border-radius: 2em;
+}
+
+.menu-section .menu-list .list-item .item-detail{
+    width:80%;
+    margin:.789em;
+    color:white;
+}
+.menu-section .menu-list .list-item .item-detail h3{
+    color:rgb(255, 162, 0)
+}
+.menu-section .menu-list .list-item .item-detail p{
+    width:70%;
+    text-align: justify;
+}
+
+/* find us */
+
+.findus-section{
+    background-color: black;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.findus-section .findus-heading{
+    width:30%;
+    border-bottom: 4px solid red;
+    text-align: center;
+    padding-top:1.79em;
+    padding-bottom: 1.79em;
+    margin-bottom: 1em;
+}
+.findus-section .findus-content{
+    display:flex;
+    justify-content: space-around;
+}
+.findus-section .findus-content .findus-content-left{
+    margin:5em 3em;
+    width:40%;
+}
+
+
+.findus-section .findus-content .findus-content-left p{
+    width:70%;
+    margin-bottom:2em;
+}
+.address, .mobile-no , .mail{
+    display:flex;
+justify-content: flex-start;
+margin-bottom:1em;
+}
+.address h5, .mobile-no h5 , .mail h5{
+    font-size: 1em;
+    margin-left: .96em;;
+}
+
+.findus-section .findus-content .findus-content-right{
+   margin:2em;
+    width:50%;
+    
+    margin:1em;
+}
+
+.findus-section .findus-content .findus-content-right iframe {
+  width:30em;
+  height:20em;
+    
+}
+
+/* footer section */
+.footer-section{
+    padding:2em;
+    background-color: black;
+     color:white;
+}
+.footer-section .footer{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+
+

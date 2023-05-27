@@ -1,0 +1,56 @@
+@media (max-width:960px){
+    .header .logo h3{
+        font-size: 1em;
+    }
+    .header .logo {
+        margin:auto .5em;
+    }
+    .header .links{
+        margin: auto .5em;
+    }
+    .header .links a{
+     text-decoration: none;   
+     color:white;
+     margin-right: .5em;
+     font-size: .78rem;
+    }
+    .header .social-media-icon{
+        margin :auto .4em;
+    }
+    .header .social-media-icon i{
+        margin-right: .40em;
+    }
+
+
+    /* abouts us  */
+
+    .aboutus-section .aboutus .aboutus-left{
+        color:white;
+        padding:2em;
+        width:100%;
+        text-align: justify;
+    }
+
+    .aboutus-section .aboutus .aboutus-right img{
+        width:100%;
+    }
+
+    /* menu section */
+
+    .menu-section .menu-list{
+        display: grid;
+        grid-template-columns: repeat(1,100%);
+        justify-content: center;
+        
+    }
+    .menu-section .menu-list .list-item .item-detail p{
+        width:80%;
+        text-align: justify;
+}
+.findus-section .findus-content .findus-content-right iframe {
+    width:20em;
+    height:15em;
+      
+  }
+
+}
